@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>The fruit palace</title>
+  <h2>CHECK OUT OUR NEW FRUITSTALL</h2>
+  <link rel=" icon" href="berry.ico">
+  <meta charset="utf-8"><!--#things that are shown in google page when someone searches it.-->
+  <meta name="description" content="This is a first web page of mine"><!--#things that are shown in the first page below the page link-->
+  <meta name="keywords" content="html,first page,order,salad"><!--#google matches the keywords and brings searcher to our page if keywords are matching.-->
+  <meta name="author" content="freezy_blu"><!--#author name for some credit-->
+  <meta name="viewport" content="width=device-width" initial-scale="1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="section3/shineberry.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
+</head>
+
+<body>
+
+  <!--this id can be used before any element eg:<p id=""-->
+    <h3>Salads just for you!!!</h3>
+    <h3>Tasty and healthy</h3>
+    <form method="post" action="mailto:sakuraharuki@gmail.com" enctype="text/plain">
+      <!--get & post are 2 where in post details in webpage will be shown.usedfor sensitive info like pasword-->
+        <input name="saladtype" type="checkbox" value="Fruit Dressing" />Fruit Dressing<br />
+        <input name="saladtype" type="checkbox" value="Dessert salad" />Dessert salad<br />
+        <input name="saladtype" type="checkbox" value="Blueberry Salad" />Blueberry Salad<br />
+        <input name="saladtype" type="checkbox" value="Apple Salad" />Apple Salad<br />
+        <input name="saladtype" type="checkbox" value="Banana salad" />Banana salad<br />
+        <input name="saladtype" type="checkbox" value="Rainbow fruit salad" />Rainbow fruit salad<br />
+
+        <section2 id="deliveryform">
+
+          <h2>Deliveryservice</h2>
+          <input name="deliverymethod" type="radio" value="Yes" />Yes<br />
+
+          <input name="deliverymethod" type="radio" value="no" />No<br />
+          </br>
+
+          <h7>(if yes fill the following)</h7>
+          <br>
+        </section2>
+        <section3>
+
+          <input name="address1" placeholder="address1" /></br>
+          </br>
+          <input name="address2" placeholder="address2" /></br>
+          </br>
+          <input name="city" placeholder="city" /></br>
+          </br>
+          <input name="state" placeholder="state" /></br>
+          </br>
+          <input name="pin" placeholder="pincode" /></br>
+
+           <h2>Quantity</h2>
+          <select name="quantity">
+            <option value="1">1_$90.00</option>
+            <option value="2">2_$180.00</option>
+            <option value="3">3_$270.00</option>
+            <option value="4">4_$360.00</option>
+            <option value="5">5_$450.00</option>
+          </select>
+
+          <br />
+          <br>
+          <section4>
+            <video height="500" width="100%" controls autoplay loop muted>
+              <source src="video.mp4" type="video/mp4" />
+              <source src="video.ogg" type="video/ogg">
+              <source src="video.webm" type="video/webm">
+              <p>your file is not supported</p>
+            </video>
+          </section4>
+
+          <br />
+          <br />
+          <!--
+          <section5>
+            <audio width="540" height="300" controls muted>
+              <source src="song.mp3" type="audio/mpeg">
+              <source src="song.ogg" type="audio/ogg">
+              <source src="song.wav" type="audio/wav">
+            </audio>
+          </section5>
+        -->
+    </form>
+    <center><button type="submit" color:#f00>place order</button></center>
+</body>
+<footer>  <center>
+    <h4>Thank you for choosing us!!! Come back for more!!!</h4>
+  </center>
+</footer>
+
+</html>
